@@ -1,6 +1,6 @@
 ﻿namespace Tp3_Math
 {
-    partial class Form1
+    partial class PI
     {
         /// <summary>
         /// Variable nécessaire au concepteur.

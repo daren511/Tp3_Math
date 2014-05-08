@@ -12,27 +12,27 @@ using System.Windows.Forms;
 namespace Tp3_Math
 {
     
-    public partial class Form1 : Form
+    public partial class PI : Form
     {
         private double pchapeau = 0;
         private double qchapeau = 0;
         private double sigma = 0;
-        private int essaisdefaut = 1000;
+        private long essaisdefaut = 1000;
         private double erreur = 0;
         private const double ZPOISSON = 2.575;
         private double pmin = 0;
         private double pmax = 0;
         private Random rand = new Random();
-        public Form1()
+        public PI()
         {
             InitializeComponent();
         }
 
-        private void calculerPi(int essais)
+        private void calculerPi(long essais)
         {
             Coordonnees coord;
 
-            for (int i = 0; i < essais; ++i)
+            for (long i = 0; i < essais; ++i)
             {
                 coord = new Coordonnees(rand.NextDouble(), rand.NextDouble());
 
